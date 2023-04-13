@@ -1,3 +1,11 @@
+/******************************************************************************
+Escreva a função para cálculo do N-ésimo termo da série de Fibonacci
+utilizando recursividade.
+*******************************************************************************/
+
+//A lógica por trás dessa função é simples: se n for 0 ou 1, retornamos n (porque esses são os 
+//primeiros dois termos da série de Fibonacci). Caso contrário, recursivamente calculamos o (n-1)-ésimo e o (n-2)-ésimo 
+//termos e somamos esses dois valores para obter o n-ésimo termo.
 #include <stdio.h>
 
 int fibonacci(int n) {
